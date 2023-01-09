@@ -1,7 +1,10 @@
 # entrypoint
+
+Run set ansible-run as executable and run.
+try to run local.yml
+Make sure the id_rsa key is decrypted before usage.
+
+
 TODO:
-Encrypt used SSH-key
-Move to public
-Write .sh script to pull and decrypt using ansible.
-Move to correct location.
+Find out why ansible startup-script is not working
 
